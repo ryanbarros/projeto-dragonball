@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Secular One', sans-serif;
+}
+
+
+
+/* ===================Cabeçalho============================*/
+header{
+    margin-top: 0;
+    background-color: #F29921;
+    color: white;
+    
+    padding: 15px 0 5px;
+}
+
+.infoheader > h1{
+    font-size: 40px;
+}
+
+.infoheader > p{
+    font-weight: bold;
+    color: #EB4D09;
+    margin-bottom: 8px;
+}
+
+
+.infoheader{
+    width: 60vw;
+    margin: auto;
+    text-align: center;
+}
+
+.infoheader > h1{
+    margin-top: 0;
+}
+
+/* ===================Principal============================*/
+
+.principal{
+    width: 80vw;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.principal > p{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.conteudo{
+    width: 60vw;
+    margin: auto;
+    
+}
+
+.transformacao{
+    width: 45vw;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    
+}
+
+.transformacao > h2{
+    margin-left: 40px;
+    color: #F29921 ;
+    font-size: 30px;
+}
+
+.transformacao > p{
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: justify;
+    
+}
+
+figure > img{
+    width: 100%;
+
+    border-radius: 5px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.411);
+}
+
+figcaption{
+    color: #EB4D09;
+}
+
+.transformacao > a{
+    text-decoration: none;
+    background-color: #F29921;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 40px;
+    display:inline-flex;
+    margin-bottom: 40px;
+
+}
+
+/* ===================Footer============================*/
+
+footer{
+    margin-top: 1px;
+    background-color: #F29921;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+hr{
+    background-color: #F29921;
+    height: 2px;
+}
+
+a:hover{
+    background-color: #EB4D09;
+}
