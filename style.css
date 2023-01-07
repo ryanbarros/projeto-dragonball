@@ -11,12 +11,12 @@ header{
     margin-top: 0;
     background-color: #F29921;
     color: white;
-    
     padding: 15px 0 5px;
 }
 
 .infoheader > h1{
     font-size: 40px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.377);
 }
 
 .infoheader > p{
@@ -42,6 +42,7 @@ header{
     width: 80vw;
     margin: auto;
     margin-top: 70px;
+    
 }
 
 .principal > p{
@@ -52,23 +53,22 @@ header{
 }
 
 .conteudo{
-    width: 60vw;
+    width: 40vw;
     margin: auto;
-    
+    font-size: 22px;
+
 }
 
 .transformacao{
-    width: 45vw;
-    margin: auto;
     margin-top: 40px;
     margin-bottom: 20px;
-    
 }
 
 .transformacao > h2{
     margin-left: 40px;
     color: #F29921 ;
     font-size: 30px;
+
 }
 
 .transformacao > p{
@@ -80,8 +80,7 @@ header{
 
 figure > img{
     width: 100%;
-
-    border-radius: 5px;
+    border-radius: 7px;
     box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.411);
 }
 
@@ -96,9 +95,9 @@ figcaption{
     border-radius: 5px;
     padding: 10px;
     margin-left: 40px;
-    display:inline-flex;
+    display:inline-block;
     margin-bottom: 40px;
-
+    font-size: 0.8em;
 }
 
 /* ===================Footer============================*/
@@ -118,4 +117,27 @@ hr{
 
 a:hover{
     background-color: #EB4D09;
+    transition: 1s;
+}
+
+@media screen and (min-width:300px) and (max-width:800px) {
+
+
+
+
+    .conteudo{
+        width: 100%;
+    }
+    
+    .transformacao{
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+
+    .infoheader{
+        width: 300px;
+        margin: auto;
+        text-align: center;
+    }
 }
