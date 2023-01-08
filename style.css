@@ -34,18 +34,24 @@ header{
 
 .infoheader > h1{
     margin-top: 0;
+    font-family: sayajin;
 }
+
+@font-face {
+    font-family: sayajin;
+    src: url(./Saiyan-Sans.ttf) format(truetype);
+}
+
 
 /* ===================Principal============================*/
 
-.principal{
+main{
     width: 80vw;
     margin: auto;
     margin-top: 70px;
-    
 }
 
-.principal > p{
+main > p{
     font-size: 25px;
     font-weight: bold;
     text-align: justify;
@@ -53,25 +59,25 @@ header{
 }
 
 .conteudo{
-    width: 40vw;
+    width: 45vw;
     margin: auto;
     font-size: 22px;
 
 }
 
-.transformacao{
+section{
     margin-top: 40px;
     margin-bottom: 20px;
 }
 
-.transformacao > h2{
+section > h2{
     margin-left: 40px;
     color: #F29921 ;
     font-size: 30px;
 
 }
 
-.transformacao > p{
+section > p{
     margin-left: 40px;
     margin-right: 40px;
     text-align: justify;
@@ -88,7 +94,7 @@ figcaption{
     color: #EB4D09;
 }
 
-.transformacao > a{
+section > a{
     text-decoration: none;
     background-color: #F29921;
     color: white;
@@ -129,7 +135,7 @@ a:hover{
         width: 100%;
     }
     
-    .transformacao{
+    section{
         margin-top: 40px;
         margin-bottom: 20px;
     }
@@ -139,5 +145,26 @@ a:hover{
         width: 300px;
         margin: auto;
         text-align: center;
+    }
+
+    figure{
+        width: 100%;
+        margin: auto;
+    }
+
+
+    section > h2{
+        margin: auto;
+        width: 100%;
+    }
+    
+    section > p{
+        margin: auto;
+        width: 100%;
+    }
+
+    section > a{
+        margin-top: 30px;
+        margin-left: 0%;
     }
 }
