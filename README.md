@@ -1,2 +1,2 @@
 # projeto-dragonball
- Projeto feita sobre transformações em Dragon Ball
+ Projeto feito sobre transformações em Dragon Ball
